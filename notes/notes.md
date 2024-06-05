@@ -11,3 +11,11 @@ Tests operate like a function with the following rules
 It is possible to launch Go docs locally by running `godoc -http:8000` in the terminal. Then going to link `localhost:8000/pkg` to see the packages installed on the system. 
 
 If `godoc` is not installed, it can be installed manually using `go install golang.org/x/tools/cmd/godoc@latest`.
+
+
+## Benchmarking
+
+Benchmarks operate within the testing file and have the following rules
+- The benchmark function must start with the word `Benchmark`
+- The benchmark function takes one argument only `t *testing.B`
+- To run benchmarks, enter in the command line `go test -bench=.`
