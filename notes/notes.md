@@ -14,8 +14,10 @@ If `godoc` is not installed, it can be installed manually using `go install gola
 
 
 ## Benchmarking
-
 Benchmarks operate within the testing file and have the following rules
 - The benchmark function must start with the word `Benchmark`
 - The benchmark function takes one argument only `t *testing.B`
 - To run benchmarks, enter in the command line `go test -bench=.`
+
+## Test coverage
+To check that your tests cover all functions run the following in the terminal `go test -cover`
