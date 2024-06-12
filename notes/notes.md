@@ -21,3 +21,6 @@ Benchmarks operate within the testing file and have the following rules
 
 ## Test coverage
 To check that your tests cover all functions run the following in the terminal `go test -cover`
+
+## Pointers
+In Go, pointers are automatically dereferenced. However, it is best to 
